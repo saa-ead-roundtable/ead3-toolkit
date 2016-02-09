@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="http://ead3.archivists.org/schema/" audience="external"> 
+	<control>
+		<recordid instanceurl="http://library.marist.edu/archives/LTP/LTP.xml">marist101</recordid>
+		<filedesc> 
+			<titlestmt> 
+				<titleproper>Lowell Thomas Papers</titleproper> 
+			</titlestmt> 
+			<publicationstmt> 
+				<publisher>Marist College</publisher> 
+				<date>April 2010</date> 
+				<address> 
+					<addressline>3399 North Road</addressline> 
+					<addressline>Poughkeepsie, NY 12601</addressline> 
+				</address> 		
+				<p><ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref></p>
+			</publicationstmt> 
+		</filedesc> 
+		<maintenancestatus value="revised"/>
+		<maintenanceagency countrycode="US">
+			<agencycode>NPkMC</agencycode>	
+			<agencyname>Marist College Archives &amp; Special Collections</agencyname>
+		</maintenanceagency>
+		<maintenancehistory>
+			<maintenanceevent>
+				<eventtype value="created"/>
+				<eventdatetime standarddatetime="2010-04">April 2010</eventdatetime>
+				<agenttype value="human"/>
+				<agent>Monish Singh</agent>
+				<eventdescription>EAD Version 2002 encoding</eventdescription>
+			</maintenanceevent>
+			<maintenanceevent>
+			<eventtype value="updated"/>
+				<eventdatetime standarddatetime="2014-09-11">September 11, 2014</eventdatetime>
+				<agenttype value="human"/>
+				<agent>Monish Singh</agent>
+				<eventdescription>Conversion from EAD Version 2002 to EAD3</eventdescription>
+			</maintenanceevent>
+		</maintenancehistory>
+	</control>
+	<archdesc level="collection"> 
+		<did> 
+			<repository>
+				<corpname source="NAF" identifier="http://id.loc.gov/authorities/names/n91102518">
+					<part>Marist College</part>
+					<part>Archives &amp; Special Collections</part>
+				</corpname>
+				<address>
+					<addressline>3399 North Road</addressline>
+					<addressline>Poughkeepsie, NY 12601</addressline>
+				</address>
+			</repository>
+			<origination> 
+				<persname>
+					<part>Thomas, Lowell</part>
+				</persname> 
+			</origination> 
+			<unittitle>Lowell Thomas Papers</unittitle> 
+			<unitdatestructured unitdatetype="inclusive">
+				<daterange>
+					<fromdate standarddatetime="1789">1789</fromdate>
+					<todate standarddatetime="1996">1996</todate>
+				</daterange>
+				</unitdatestructured> 
+				<unitdatestructured unitdatetype="bulk">
+					<daterange>
+						<fromdate standarddatetime="1900">1900</fromdate>
+						<todate standarddatetime="1981">1981</todate>
+				</daterange>
+			</unitdatestructured> 
+				<physdescset>
+				<physdescstructured physdescstructuredtype="carrier" coverage="whole" >
+					<quantity>6</quantity>					
+					<unittype>boxes</unittype>
+				</physdescstructured>
+				<physdescstructured physdescstructuredtype="spaceoccupied" coverage="whole">
+					<quantity>6</quantity>
+					<unittype>cubic feet</unittype>
+				</physdescstructured>
+			</physdescset>
+			<abstract>The Lowell Thomas Papers encompasses a wide range of materials documenting the life, family, and professional career of Lowell Thomas. These materials include correspondence, administrative and financial documents, manuscripts, printed materials, photographic materials, motion picture films, audio recordings, and memorabilia. </abstract> 
+			<langmaterial>
+				<languageset>
+					<language langcode="eng">English</language>
+					<language langcode="spa">Spanish</language>
+					<language langcode="por">Portuguese</language>
+				</languageset>
+				<descriptivenote>
+					<p>Collection material in English, Spanish, and Portuguese</p>
+				</descriptivenote> 
+			</langmaterial> 
+		</did> 
+		<accessrestrict> 
+			<head>Use of Materials</head> 
+			<p>Items in this collection do not circulate and may be used in-house only. </p> 
+		</accessrestrict> 
+		<userestrict> 
+			<head>Copyright</head> 
+			<p>Individuals requesting reproductions expressly assume the responsibility for compliance with all pertinent provisions of the Copyright Act, 17 U.S.C. ss101 et seq. Patrons further agree to indemnify and hold harmless the Marist College Archives & Special Collections and its staff in connection with any disputes arising from the Copyright Act, over the reproduction of material at the request of patrons. For more information please visit the following website: http://www.loc.gov/copyright/title17/.</p> 
+		</userestrict> 
+		<acqinfo> 
+			<head>Source of acquisition</head> 
+			<p>The Lowell Thomas Papers were donated to Marist College by the Thomas family in 2006.</p> 
+		</acqinfo> 
+		<processinfo> 
+			<head>Processing Information</head> 
+			<p>Collection processed by Angelo Galeazzi.</p> 
+		</processinfo>
+		<arrangement> 
+			<head>Arrangement</head> 
+			<p>The collection is arranged in two series: 
+			<list> 
+				<item>Textual Materials</item> 
+				<item>Graphic Materials</item>
+			</list>
+			</p> 
+		</arrangement> 
+		<scopecontent> 
+			<head>Scope and Content</head> 
+			<p>The Lowell Thomas Papers encompasses a wide range of materials documenting the life, family, and professional career of Lowell Thomas. These materials include correspondence, administrative and financial documents, manuscripts, printed materials, photographic materials, motion picture films, audio recordings, and memorabilia.</p> 
+		</scopecontent> 
+		<bioghist> 
+			<head>Biographical Sketch of Lowell Thomas (1892-1981)</head> 
+			<p>Lowell Jackson Thomas was born in Woodington, Ohio on 6 April 1892 to two school teachers, Harry G. Thomas and Harriet Wagner Thomas. The family did not remain in Darke County, Ohio for very long because Lowell's father wanted to become a doctor. Harry G. Thomas's pursuit of a medical degree led the family to Kirkman, Iowa where five-year-old Lowell was enrolled in school for the first time. Harry's studies soon led him to the University of Nebraska. Upon graduation, Harry G. Thomas followed his brother's suggestion to begin his medical practice in the twin mining boom towns of Cripple Creek and Victor, Colorado. It was here in the rugged American West that Lowell spent the better part of his childhood and young adult years.</p> 		
+		</bioghist> 
+		<controlaccess>
+			<persname relator="creator" source="lcnaf" identifier="http://id.loc.gov/authorities/names/n79139713">
+				<part>Thomas, Lowell</part>
+				<part>1892-1981</part>
+			</persname>
+			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85070753">
+				<part>Journalism</part>
+				<part>United States</part>
+			</subject>
+			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85148273">
+				<part>World War, 1939-1945</part>
+			</subject>
+			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh2008113810">
+				<part>World War, 1914-1918</part>
+				<part>Campaigns</part>
+				<part>Middle East</part>
+			</subject>
+		</controlaccess>
+		<dsc> 
+			<head>Detailed Contents</head> 
+			<p>The following section contains a detailed list of the materials in the collection.</p> 
+			<c01 level="series"> 
+				<did> 
+					<unitid>Series 1</unitid>
+					<unittitle>Textual materials</unittitle>
+					<unitdatestructured unitdatetype="inclusive">
+						<dateset>
+							<daterange>
+								<fromdate standarddate="1789">1789</fromdate>
+								<todate standarddate="1984">1984</todate>
+							</daterange>
+							<datesingle standarddate="1996">1996</datesingle>
+						</dateset>
+					</unitdatestructured>
+				</did>
+				<c02 level="file">
+					<did>
+						<unittitle>Correspondence, writings, and other material</unittitle>
+						<unitdate unitdatetype="inclusive" normal="1789-1984">1789-1984.</unitdate>
+						<container>1-5</container>
+					</did>
+					<scopecontent>These files contain correspondence between Thomas family members; published and manuscript writings by Lowell Thomas, including autobiographical content, articles, speeches, and travelogues; and topically-arranged collections of journal articles, newspaper clippings, and ephemera.</scopecontent>
+				</c02>
+				<c02 level="file"> 
+					<did> 			 	
+						<unittitle>Alaska - Our 49th State (story line for High Adventure with Lowell Thomas television series) </unittitle> 
+						<unitdate unitdatetype="inclusive" normal="1958-1959">1958-1959.</unitdate> 
+						<container>1</container> 
+						<dao daotype="derived" href="http://archives.marist.edu/LTP/1.1.pdf"/>
+					</did> 
+				</c02> 
+				<c02 level="file"> 
+					<did> 
+						<unittitle>Alaska Centennial</unittitle> 
+						<unitdate unitdatetype="inclusive" normal="1996">1996.</unitdate> 
+						<container>1</container> 
+						<dao daotype="borndigital" href="http://archives.marist.edu/LTP/1.2.pdf"/> 
+					</did> 
+				</c02> 
+			</c01> 
+			<c01 level="series">
+				<did>
+					<unitid>Series 2</unitid>
+					<unittitle>Graphic materials</unittitle>
+					<unitdate unitdatetype="inclusive" normal="1891-1980">1891-1980</unitdate>
+					<container>6</container>
+				</did>
+				<scopecontent>Comprises photographs, lantern slides, and glass plate negatives accumulated by Frank R. Roberson and Lowell Thomas arranged by topic and geographic coverage.  Also includes commercial photographs from Beseler Lantern Slide Co., Inc., Curtis and Miller, T.H. McAllister Co., J. Horace McFarland Co., and other firms.</scopecontent>
+			</c01>
+		</dsc> 
+	</archdesc> 
+</ead>

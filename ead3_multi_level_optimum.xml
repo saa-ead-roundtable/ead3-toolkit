@@ -58,14 +58,14 @@
 			<unittitle>Lowell Thomas Papers</unittitle> 
 			<unitdatestructured unitdatetype="inclusive">
 				<daterange>
-					<fromdate standarddatetime="1789">1789</fromdate>
-					<todate standarddatetime="1996">1996</todate>
+					<fromdate standarddate="1789">1789</fromdate>
+					<todate standarddate="1996">1996</todate>
 				</daterange>
 				</unitdatestructured> 
 				<unitdatestructured unitdatetype="bulk">
 					<daterange>
-						<fromdate standarddatetime="1900">1900</fromdate>
-						<todate standarddatetime="1981">1981</todate>
+						<fromdate standarddate="1900">1900</fromdate>
+						<todate standarddate="1981">1981</todate>
 				</daterange>
 			</unitdatestructured> 
 				<physdescset>
@@ -78,12 +78,13 @@
 					<unittype>cubic feet</unittype>
 				</physdescstructured>
 			</physdescset>
-			<abstract>The Lowell Thomas Papers encompasses a wide range of materials documenting the life, family, and professional career of Lowell Thomas. These materials include correspondence, administrative and financial documents, manuscripts, printed materials, photographic materials, motion picture films, audio recordings, and memorabilia. </abstract> 
+			<abstract>The Lowell Thomas Papers encompasses a wide range of materials documenting the life, family, and professional career of Lowell Thomas. These materials include correspondence, administrative and financial documents, manuscripts, printed materials, photographic materials, motion picture films, audio recordings, and memorabilia.</abstract> 
 			<langmaterial>
 				<languageset>
 					<language langcode="eng">English</language>
 					<language langcode="spa">Spanish</language>
 					<language langcode="por">Portuguese</language>
+					<script scriptcode="latn">Latin</script>
 				</languageset>
 				<descriptivenote>
 					<p>Collection material in English, Spanish, and Portuguese</p>
@@ -92,11 +93,11 @@
 		</did> 
 		<accessrestrict> 
 			<head>Use of Materials</head> 
-			<p>Items in this collection do not circulate and may be used in-house only. </p> 
+			<p>Items in this collection do not circulate and may be used in-house only.</p> 
 		</accessrestrict> 
 		<userestrict> 
 			<head>Copyright</head> 
-			<p>Individuals requesting reproductions expressly assume the responsibility for compliance with all pertinent provisions of the Copyright Act, 17 U.S.C. ss101 et seq. Patrons further agree to indemnify and hold harmless the Marist College Archives & Special Collections and its staff in connection with any disputes arising from the Copyright Act, over the reproduction of material at the request of patrons. For more information please visit the following website: http://www.loc.gov/copyright/title17/.</p> 
+			<p>Individuals requesting reproductions expressly assume the responsibility for compliance with all pertinent provisions of the Copyright Act, 17 U.S.C. ss101 et seq. Patrons further agree to indemnify and hold harmless the Marist College Archives &amp; Special Collections and its staff in connection with any disputes arising from the Copyright Act, over the reproduction of material at the request of patrons. For more information please visit the following website: http://www.loc.gov/copyright/title17/.</p> 
 		</userestrict> 
 		<acqinfo> 
 			<head>Source of acquisition</head> 
@@ -108,12 +109,11 @@
 		</processinfo>
 		<arrangement> 
 			<head>Arrangement</head> 
-			<p>The collection is arranged in two series: 
+			<p>The collection is arranged in two series.</p>
 			<list> 
 				<item>Textual Materials</item> 
 				<item>Graphic Materials</item>
 			</list>
-			</p> 
 		</arrangement> 
 		<scopecontent> 
 			<head>Scope and Content</head> 
@@ -164,11 +164,12 @@
 						<unitdate unitdatetype="inclusive" normal="1789-1984">1789-1984.</unitdate>
 						<container>1-5</container>
 					</did>
-					<scopecontent>These files contain correspondence between Thomas family members; published and manuscript writings by Lowell Thomas, including autobiographical content, articles, speeches, and travelogues; and topically-arranged collections of journal articles, newspaper clippings, and ephemera.</scopecontent>
+					<scopecontent>
+						<p>These files contain correspondence between Thomas family members; published and manuscript writings by Lowell Thomas, including autobiographical content, articles, speeches, and travelogues; and topically-arranged collections of journal articles, newspaper clippings, and ephemera.</p></scopecontent>
 				</c02>
 				<c02 level="file"> 
 					<did> 			 	
-						<unittitle>Alaska - Our 49th State (story line for High Adventure with Lowell Thomas television series) </unittitle> 
+						<unittitle>Alaska - Our 49th State (story line for High Adventure with Lowell Thomas television series)</unittitle> 
 						<unitdate unitdatetype="inclusive" normal="1958-1959">1958-1959.</unitdate> 
 						<container>1</container> 
 						<dao daotype="derived" href="http://archives.marist.edu/LTP/1.1.pdf"/>
@@ -190,7 +191,7 @@
 					<unitdate unitdatetype="inclusive" normal="1891-1980">1891-1980</unitdate>
 					<container>6</container>
 				</did>
-				<scopecontent>Comprises photographs, lantern slides, and glass plate negatives accumulated by Frank R. Roberson and Lowell Thomas arranged by topic and geographic coverage.  Also includes commercial photographs from Beseler Lantern Slide Co., Inc., Curtis and Miller, T.H. McAllister Co., J. Horace McFarland Co., and other firms.</scopecontent>
+				<scopecontent><p>Comprises photographs, lantern slides, and glass plate negatives accumulated by Frank R. Roberson and Lowell Thomas arranged by topic and geographic coverage.  Also includes commercial photographs from Beseler Lantern Slide Co., Inc., Curtis and Miller, T.H. McAllister Co., J. Horace McFarland Co., and other firms.</p></scopecontent>
 			</c01>
 		</dsc> 
 	</archdesc> 

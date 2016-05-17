@@ -132,14 +132,6 @@
 				<part>Journalism</part>
 				<part>United States</part>
 			</subject>
-			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85148273">
-				<part>World War, 1939-1945</part>
-			</subject>
-			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh2008113810">
-				<part>World War, 1914-1918</part>
-				<part>Campaigns</part>
-				<part>Middle East</part>
-			</subject>
 		</controlaccess>
 		<dsc> 
 			<head>Detailed Contents</head> 
@@ -183,6 +175,16 @@
 						<dao daotype="borndigital" href="http://archives.marist.edu/LTP/1.2.pdf"/> 
 					</did> 
 				</c02> 
+			<controlaccess>
+				<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85148273">
+					<part>World War, 1939-1945</part>
+				</subject>
+				<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh2008113810">
+					<part>World War, 1914-1918</part>
+					<part>Campaigns</part>
+					<part>Middle East</part>
+				</subject>
+			</controlaccess>	
 			</c01> 
 			<c01 level="series">
 				<did>
@@ -192,6 +194,17 @@
 					<container>6</container>
 				</did>
 				<scopecontent><p>Comprises photographs, lantern slides, and glass plate negatives accumulated by Frank R. Roberson and Lowell Thomas arranged by topic and geographic coverage.  Also includes commercial photographs from Beseler Lantern Slide Co., Inc., Curtis and Miller, T.H. McAllister Co., J. Horace McFarland Co., and other firms.</p></scopecontent>
+			<controlaccess>
+				<persname relator="subject" source="lcnaf" identifier="http://id.loc.gov/authorities/names/n80079447.html">
+					<part>Dalai Lama XIV</part>
+					<part>1935-</part>
+				</persname>		
+				<persname relator="subject" source="lcnaf" identifier="http://id.loc.gov/authorities/names/n79097491.html">
+					<part>Lawrence, T.E. (Thomas Edward)</part>
+					<part>1888-1935</part>
+				</persname>			
+			</controlaccess>
+			
 			</c01>
 		</dsc> 
 	</archdesc> 

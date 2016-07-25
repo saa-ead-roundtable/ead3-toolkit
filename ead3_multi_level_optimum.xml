@@ -149,27 +149,27 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<unittitle>Alaska - Our 49th State (story line for High Adventure with Lowell Thomas television series)</unittitle>
+						<unittitle>American Expeditionary Forces (A.E.F.)</unittitle>
 						<unitid>MA-1-01-02</unitid>
 						<unitdatestructured unitdatetype="inclusive">
 							<daterange>
-								<fromdate standarddate="1958">1958</fromdate>
-								<todate standarddate="1959">1959</todate>
+								<fromdate standarddate="1918">1918</fromdate>
+								<todate standarddate="1919">1919</todate>
 							</daterange>
 						</unitdatestructured>
 						<container localtype="box">1</container>
-						<dao daotype="derived" href="http://archives.marist.edu/LTP/1.1.pdf"/>
+						<dao daotype="derived" href="http://library.marist.edu/archives/LTP/digitizedContents/Box%20495/1.25.1.1.495.2.pdf"/>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<unittitle>Alaska Centennial</unittitle>
+						<unittitle>General Edmund Allenby</unittitle>
 						<unitid>MA-1-01-03</unitid>
 						<unitdatestructured unitdatetype="inclusive">
-							<datesingle standarddate="1996">1996</datesingle>
+							<datesingle standarddate="1918">1918</datesingle>
 						</unitdatestructured>
 						<container localtype="box">1</container>
-						<dao daotype="borndigital" href="http://archives.marist.edu/LTP/1.2.pdf"/>
+						<dao daotype="borndigital" href="http://library.marist.edu/archives/LTP/digitizedContents/Box%20495/1.25.1.1.495.1.pdf"/>
 					</did>
 				</c02>
 			</c01>

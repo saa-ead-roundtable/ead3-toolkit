@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="schema/ead3.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<ead xmlns="http://ead3.archivists.org/schema/"> 
-	<control>
-		<recordid instanceurl="http://library.marist.edu/archives/LTP/LTP.xml">marist101</recordid>
-		<filedesc>
-			<titlestmt>
-				<titleproper>Lowell Thomas Papers</titleproper>
+<ead xmlns="http://ead3.archivists.org/schema/" audience="external"> <!-- EAD3 required element -->
+	<control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924"> <!-- EAD3 required element -->
+		<recordid instanceurl="http://library.marist.edu/archives/LTP/LTP.xml">1.1</recordid> <!-- EAD3 required element -->
+		<filedesc> <!-- EAD3 required element -->
+			<titlestmt> <!-- EAD3 required element -->
+				<titleproper>Lowell Thomas Papers</titleproper> <!-- Required element within titlestmt -->
 			</titlestmt>
 			<publicationstmt>
 				<publisher>Marist College</publisher>
@@ -14,33 +14,36 @@
 					<addressline>3399 North Road</addressline>
 					<addressline>Poughkeepsie, NY 12601</addressline>
 				</address>
+				<p><ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref></p>
 			</publicationstmt>
 		</filedesc>
-		<maintenancestatus value="revised"/>
-		<maintenanceagency countrycode="US">
+		<maintenancestatus value="revised"/> <!-- EAD3 required element -->
+		<maintenanceagency countrycode="US"> <!-- EAD3 required element -->
 			<agencycode>NPkMC</agencycode>
 			<agencyname>Marist College Archives &amp; Special Collections</agencyname>
 		</maintenanceagency>
-		<maintenancehistory>
-			<maintenanceevent>
-				<eventtype value="created"/>
-				<eventdatetime standarddatetime="2010-04">April 2010</eventdatetime>
-				<agenttype value="human"/>
-				<agent>Monish Singh</agent>
-				<eventdescription>EAD Version 2002 encoding</eventdescription>
+		<languagedeclaration>
+			<language langcode="eng">English</language>
+			<script scriptcode="latn">Latin</script>
+		</languagedeclaration>
+		<maintenancehistory> <!-- EAD3 required element -->
+			<maintenanceevent> <!-- EAD3 required element -->
+				<eventtype value="created"/> <!-- EAD3 required element -->
+				<eventdatetime standarddatetime="2010-04">April 2010</eventdatetime> <!-- EAD3 required element -->
+				<agenttype value="human"/> <!-- EAD3 required element -->
+				<agent>Monish Singh</agent> <!-- EAD3 required element -->
 			</maintenanceevent>
 			<maintenanceevent>
-			<eventtype value="updated"/>
+				<eventtype value="updated"/>
 				<eventdatetime standarddatetime="2014-09-11">September 11, 2014</eventdatetime>
 				<agenttype value="human"/>
 				<agent>Monish Singh</agent>
-				<eventdescription>Conversion from EAD Version 2002 to EAD3</eventdescription>
 			</maintenanceevent>
 		</maintenancehistory>
 	</control>
-	<archdesc level="collection">
-		<did>
-			<repository>
+	<archdesc level="collection"> <!-- EAD3 required element -->
+		<did> <!-- EAD3 required element -->
+			<repository> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Name and Location of Repository Element' -->
 				<corpname source="NAF" identifier="http://id.loc.gov/authorities/names/n91102518">
 					<part>Marist College</part>
 					<part>Archives &amp; Special Collections</part>
@@ -50,25 +53,26 @@
 					<addressline>Poughkeepsie, NY 12601</addressline>
 				</address>
 			</repository>
-			<origination>
+			<origination> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Name of Creator(s) Element'. The new <relations> element can satisfy this and expand on it, but as <relations> is experimental, use of <origination> is recommended for now -->
 				<persname>
 					<part>Thomas, Lowell</part>
 				</persname>
 			</origination>
-			<unittitle>Lowell Thomas Papers</unittitle>
-			<unitdatestructured unitdatetype="inclusive">
+			<unittitle>Lowell Thomas Papers</unittitle> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Title Element' -->
+			<unitid>MA-1</unitid> <!-- Optional EAD3 element, added to comply with 'Reference Code Element' of DACS requirement -->
+			<unitdatestructured unitdatetype="inclusive"> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Date Element' -->
 				<daterange>
 					<fromdate standarddate="1789">1789</fromdate>
 					<todate standarddate="1996">1996</todate>
 				</daterange>
-				</unitdatestructured>
-				<unitdatestructured unitdatetype="bulk">
-					<daterange>
-						<fromdate standarddate="1900">1900</fromdate>
-						<todate standarddate="1981">1981</todate>
+			</unitdatestructured>
+			<unitdatestructured unitdatetype="bulk">
+				<daterange>
+					<fromdate standarddate="1900">1900</fromdate>
+					<todate standarddate="1981">1981</todate>
 				</daterange>
 			</unitdatestructured>
-			<physdescset>
+			<physdescset> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Extent Element' -->
 				<physdescstructured physdescstructuredtype="carrier" coverage="whole" >
 					<quantity>6</quantity>
 					<unittype>boxes</unittype>
@@ -78,54 +82,18 @@
 					<unittype>cubic feet</unittype>
 				</physdescstructured>
 			</physdescset>
+			<langmaterial> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Language and Scripts of the Material Element' -->
+				<language langcode="eng">English</language>
+			</langmaterial>
 		</did>
-		<accessrestrict>
-			<head>Use of Materials</head>
+		<accessrestrict> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Conditions Governing Access Element' -->
 			<p>Items in this collection do not circulate and may be used in-house only.</p>
 		</accessrestrict>
-		<userestrict>
-			<head>Copyright</head>
+		<userestrict> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Conditions Governing Access Element' -->
 			<p>Individuals requesting reproductions expressly assume the responsibility for compliance with all pertinent provisions of the Copyright Act, 17 U.S.C. ss101 et seq. Patrons further agree to indemnify and hold harmless the Marist College Archives &amp; Special Collections and its staff in connection with any disputes arising from the Copyright Act, over the reproduction of material at the request of patrons. For more information please visit the following website: http://www.loc.gov/copyright/title17/.</p>
 		</userestrict>
-		<processinfo>
-			<head>Processing Information</head>
-			<p>Collection processed by Angelo Galeazzi.</p>
-		</processinfo>
-		<arrangement>
-			<head>Arrangement</head>
-			<p>The collection is arranged in two series.</p>
-			<list>
-				<item>Series 1. Textual Materials, 1789-1984, 1996
-					<list>
-						<item>Correspondence, writings, and other material, 1789-1984</item>
-						<item>Alaska - Our 49th State (story line for High Adventure with Lowell Thomas television series), 1958-1959</item>
-						<item>Alaska Centennial, 1996</item>
-					</list>
-				</item>
-				<item>Series 2. Graphic Materials</item>
-			</list>
-		</arrangement>
-		<scopecontent>
-			<head>Scope and Content</head>
+		<scopecontent> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Scope and Content Element' -->
 			<p>The Lowell Thomas Papers encompasses a wide range of materials documenting the life, family, and professional career of Lowell Thomas. These materials include correspondence, administrative and financial documents, manuscripts, printed materials, photographic materials, motion picture films, audio recordings, and memorabilia.</p>
 		</scopecontent>
-		<controlaccess>
-			<persname relator="creator" source="lcnaf" identifier="http://id.loc.gov/authorities/names/n79139713">
-				<part>Thomas, Lowell</part>
-				<part>1892-1981</part>
-			</persname>
-			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85070753">
-				<part>Journalism</part>
-				<part>United States</part>
-			</subject>
-			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85148273">
-				<part>World War, 1939-1945</part>
-			</subject>
-			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh2008113810">
-				<part>World War, 1914-1918</part>
-				<part>Campaigns</part>
-				<part>Middle East</part>
-			</subject>
-		</controlaccess>
 	</archdesc>
 </ead>

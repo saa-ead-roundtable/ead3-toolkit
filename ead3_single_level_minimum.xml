@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ead xmlns="http://ead3.archivists.org/schema/" audience="external"> 
+<?xml-model href="schema/ead3.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/"> 
 	<control>
 		<recordid instanceurl="http://library.marist.edu/archives/LTP/LTP.xml">marist101</recordid>
-		<filedesc> 
-			<titlestmt> 
-				<titleproper>Lowell Thomas Papers</titleproper> 
-			</titlestmt> 
-			<publicationstmt> 
-				<publisher>Marist College</publisher> 
-				<date>April 2010</date> 
-				<address> 
-					<addressline>3399 North Road</addressline> 
-					<addressline>Poughkeepsie, NY 12601</addressline> 
-				</address> 		
-			</publicationstmt> 
-		</filedesc> 
+		<filedesc>
+			<titlestmt>
+				<titleproper>Lowell Thomas Papers</titleproper>
+			</titlestmt>
+			<publicationstmt>
+				<publisher>Marist College</publisher>
+				<date>April 2010</date>
+				<address>
+					<addressline>3399 North Road</addressline>
+					<addressline>Poughkeepsie, NY 12601</addressline>
+				</address>
+			</publicationstmt>
+		</filedesc>
 		<maintenancestatus value="revised"/>
 		<maintenanceagency countrycode="US">
-			<agencycode>NPkMC</agencycode>	
+			<agencycode>NPkMC</agencycode>
 			<agencyname>Marist College Archives &amp; Special Collections</agencyname>
 		</maintenanceagency>
 		<maintenancehistory>
@@ -30,15 +31,15 @@
 			</maintenanceevent>
 			<maintenanceevent>
 			<eventtype value="updated"/>
-				<eventdatetime standarddatetime="2014-09-11">September 11, 2014</eventdatetime> 
+				<eventdatetime standarddatetime="2014-09-11">September 11, 2014</eventdatetime>
 				<agenttype value="human"/>
 				<agent>Monish Singh</agent>
 				<eventdescription>Conversion from EAD Version 2002 to EAD3</eventdescription>
 			</maintenanceevent>
 		</maintenancehistory>
 	</control>
-	<archdesc level="collection"> 
-		<did> 
+	<archdesc level="collection">
+		<did>
 			<repository>
 				<corpname source="NAF" identifier="http://id.loc.gov/authorities/names/n91102518">
 					<part>Marist College</part>
@@ -49,27 +50,27 @@
 					<addressline>Poughkeepsie, NY 12601</addressline>
 				</address>
 			</repository>
-			<origination> 
+			<origination>
 				<persname>
 					<part>Thomas, Lowell</part>
-				</persname> 
-			</origination> 
-			<unittitle>Lowell Thomas Papers</unittitle> 
+				</persname>
+			</origination>
+			<unittitle>Lowell Thomas Papers</unittitle>
 			<unitdatestructured unitdatetype="inclusive">
 				<daterange>
 					<fromdate standarddate="1789">1789</fromdate>
 					<todate standarddate="1996">1996</todate>
 				</daterange>
-				</unitdatestructured> 
+				</unitdatestructured>
 				<unitdatestructured unitdatetype="bulk">
 					<daterange>
 						<fromdate standarddate="1900">1900</fromdate>
 						<todate standarddate="1981">1981</todate>
 				</daterange>
-			</unitdatestructured> 
+			</unitdatestructured>
 			<physdescset>
 				<physdescstructured physdescstructuredtype="carrier" coverage="whole" >
-					<quantity>6</quantity>					
+					<quantity>6</quantity>
 					<unittype>boxes</unittype>
 				</physdescstructured>
 				<physdescstructured physdescstructuredtype="spaceoccupied" coverage="whole">
@@ -77,23 +78,23 @@
 					<unittype>cubic feet</unittype>
 				</physdescstructured>
 			</physdescset>
-		</did> 
-		<accessrestrict> 
-			<head>Use of Materials</head> 
-			<p>Items in this collection do not circulate and may be used in-house only.</p> 
-		</accessrestrict> 
-		<userestrict> 
-			<head>Copyright</head> 
-			<p>Individuals requesting reproductions expressly assume the responsibility for compliance with all pertinent provisions of the Copyright Act, 17 U.S.C. ss101 et seq. Patrons further agree to indemnify and hold harmless the Marist College Archives &amp; Special Collections and its staff in connection with any disputes arising from the Copyright Act, over the reproduction of material at the request of patrons. For more information please visit the following website: http://www.loc.gov/copyright/title17/.</p> 
-		</userestrict> 
-		<processinfo> 
-			<head>Processing Information</head> 
-			<p>Collection processed by Angelo Galeazzi.</p> 
+		</did>
+		<accessrestrict>
+			<head>Use of Materials</head>
+			<p>Items in this collection do not circulate and may be used in-house only.</p>
+		</accessrestrict>
+		<userestrict>
+			<head>Copyright</head>
+			<p>Individuals requesting reproductions expressly assume the responsibility for compliance with all pertinent provisions of the Copyright Act, 17 U.S.C. ss101 et seq. Patrons further agree to indemnify and hold harmless the Marist College Archives &amp; Special Collections and its staff in connection with any disputes arising from the Copyright Act, over the reproduction of material at the request of patrons. For more information please visit the following website: http://www.loc.gov/copyright/title17/.</p>
+		</userestrict>
+		<processinfo>
+			<head>Processing Information</head>
+			<p>Collection processed by Angelo Galeazzi.</p>
 		</processinfo>
-		<arrangement> 
-			<head>Arrangement</head> 
+		<arrangement>
+			<head>Arrangement</head>
 			<p>The collection is arranged in two series.</p>
-			<list> 
+			<list>
 				<item>Series 1. Textual Materials, 1789-1984, 1996
 					<list>
 						<item>Correspondence, writings, and other material, 1789-1984</item>
@@ -103,11 +104,11 @@
 				</item>
 				<item>Series 2. Graphic Materials</item>
 			</list>
-		</arrangement> 
-		<scopecontent> 
-			<head>Scope and Content</head> 
-			<p>The Lowell Thomas Papers encompasses a wide range of materials documenting the life, family, and professional career of Lowell Thomas. These materials include correspondence, administrative and financial documents, manuscripts, printed materials, photographic materials, motion picture films, audio recordings, and memorabilia.</p> 
-		</scopecontent> 
+		</arrangement>
+		<scopecontent>
+			<head>Scope and Content</head>
+			<p>The Lowell Thomas Papers encompasses a wide range of materials documenting the life, family, and professional career of Lowell Thomas. These materials include correspondence, administrative and financial documents, manuscripts, printed materials, photographic materials, motion picture films, audio recordings, and memorabilia.</p>
+		</scopecontent>
 		<controlaccess>
 			<persname relator="creator" source="lcnaf" identifier="http://id.loc.gov/authorities/names/n79139713">
 				<part>Thomas, Lowell</part>
@@ -126,5 +127,5 @@
 				<part>Middle East</part>
 			</subject>
 		</controlaccess>
-	</archdesc> 
+	</archdesc>
 </ead>

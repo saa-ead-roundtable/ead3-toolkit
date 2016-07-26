@@ -53,9 +53,11 @@
 					<addressline>Poughkeepsie, NY 12601</addressline>
 				</address>
 			</repository>
-			<origination> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Name of Creator(s) Element'. The new <relations> element can satisfy this and expand on it, but as <relations> is experimental, use of <origination> is recommended for now -->
+			<origination source="lcnaf" identifier="http://id.loc.gov/authorities/names/n79139713"> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Name of Creator(s) Element'. The new <relations> element can satisfy this and expand on it, but as <relations> is experimental, use of <origination> is recommended for now -->
 				<persname>
-					<part>Thomas, Lowell</part>
+					<part localtype="surname">Thomas</part>
+					<part localtype="givenname">Lowell</part>
+					<part localtype="dates">1892-1981</part>
 				</persname>
 			</origination>
 			<unittitle>Lowell Thomas Papers</unittitle> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Title Element' -->
@@ -100,8 +102,9 @@
 		</bioghist>
 		<controlaccess> <!-- Optional EAD3 element, added to comply with DACS single-level optimum requirement for 'Access points' -->
 			<persname relator="creator" source="lcnaf" identifier="http://id.loc.gov/authorities/names/n79139713">
-				<part>Thomas, Lowell</part>
-				<part>1892-1981</part>
+				<part localtype="surname">Thomas</part>
+				<part localtype="givenname">Lowell</part>
+				<part localtype="dates">1892-1981</part>
 			</persname>
 			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85070753">
 				<part>Journalism</part>

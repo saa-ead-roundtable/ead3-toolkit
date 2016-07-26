@@ -157,7 +157,7 @@
 								<todate standarddate="1919">1919</todate>
 							</daterange>
 						</unitdatestructured>
-						<container localtype="box">1</container>
+						<container localtype="box">495</container>
 						<dao daotype="derived" href="http://library.marist.edu/archives/LTP/digitizedContents/Box%20495/1.25.1.1.495.2.pdf"/>
 					</did>
 				</c02>
@@ -168,7 +168,7 @@
 						<unitdatestructured unitdatetype="inclusive">
 							<datesingle standarddate="1918">1918</datesingle>
 						</unitdatestructured>
-						<container localtype="box">1</container>
+						<container localtype="box">495</container>
 						<dao daotype="borndigital" href="http://library.marist.edu/archives/LTP/digitizedContents/Box%20495/1.25.1.1.495.1.pdf"/>
 					</did>
 				</c02>

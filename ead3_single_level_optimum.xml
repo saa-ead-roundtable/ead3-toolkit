@@ -53,8 +53,8 @@
 					<addressline>Poughkeepsie, NY 12601</addressline>
 				</address>
 			</repository>
-			<origination source="lcnaf" identifier="http://id.loc.gov/authorities/names/n79139713"> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Name of Creator(s) Element'. The new <relations> element can satisfy this and expand on it, but as <relations> is experimental, use of <origination> is recommended for now -->
-				<persname>
+			<origination> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Name of Creator(s) Element'. The new <relations> element can satisfy this and expand on it, but as <relations> is experimental, use of <origination> is recommended for now -->
+				<persname source="lcnaf" identifier="http://id.loc.gov/authorities/names/n79139713">
 					<part localtype="surname">Thomas</part>
 					<part localtype="givenname">Lowell</part>
 					<part localtype="dates">1892-1981</part>

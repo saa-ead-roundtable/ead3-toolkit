@@ -1,6 +1,6 @@
 # EAD3 Starter Kit
 
-Prepared by the EAD Roundtable Steering Committee, Society of American Archivists
+Prepared by the EAD Roundtable Steering Committee (now EAS Section Steering Committee), Society of American Archivists
 
 2016-07-19
 
@@ -10,7 +10,7 @@ This work is licensed under a [*Creative Commons Attribution 4.0 International L
 
 ## Context and Usage
 
-The [*EAD Roundtable*](http://www2.archivists.org/groups/encoded-archival-description-ead-roundtable) of the Society of American Archivists promotes the implementation and use of encoding standards for dissemination of archival information. With the release of the Encoded Archival Description schema, Version EAD3 in 2015, the Roundtable aims to provide tools and information to promote and facilitate its use among the archival community. This EAD3 Starter Kit was created to facilitate awareness of and support implementation of the encoding standard.
+The [*EAS Section*](https://www2.archivists.org/groups/encoded-archival-standards-section) of the Society of American Archivists promotes the implementation and use of encoding standards for dissemination of archival information. With the release of the Encoded Archival Description schema, Version EAD3 in 2015, the Section aims to provide tools and information to promote and facilitate its use among the archival community. This EAD3 Starter Kit was created to facilitate awareness of and support implementation of the encoding standard.
 
 The EAD3 Starter Kit comprises this document, along with a set of sample EAD3 files that comply with [**Describing Archives: A Content Standard** *(DACS)*](http://www2.archivists.org/standards/DACS) recommendations. *Describing Archives: A Content Standard* is a content standard developed and published by the Society of American Archivists. It is the US implementation of a content standard for the General International Standard Archival Description [ISAD(G)](http://www.icacds.org.uk/eng/ISAD%28G%29.pdf) (and for ISAAR, which is not as relevant to EAD3). The starter kit uses DACS for recommendations of element *use*. For example, DACS recommends providing information about the origination of materials. DACS classifies the types of content element as Required, Required (If Known), Optimum, and Added Value. The "minimum" files meet the Requires recommendations (including "if known") and "optimum" adds the Optimum content recommendations. Those not using DACS may still find this starter kit helpful and the group would appreciate any additional mappings to international content standards.
 
